@@ -1,3 +1,43 @@
+body, .top, .header-links, .awesome-section, .awesome-left, .links {
+    display: flex;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.header-links {
+    justify-content: space-between;
+}
+
+.top, .awesome-left {
+    flex-direction: column;
+}
+
+.top {
+    background-color: #1F2937;
+}
+
+.hero-main {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero-secondary, .links {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
 }
